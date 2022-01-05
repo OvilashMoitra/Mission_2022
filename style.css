@@ -1,0 +1,74 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Welcome Section */
+.welcome {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.welcome .welcome-text{
+    margin-top: -18px;
+   
+}
+.welcome .welcome-text h1{
+    font-size: 50px;
+    font-family: 'Lobster', 'cursive'; 
+}
+.welcome span{
+    color: rgb(118, 216, 255);
+    font-family: 'Lobster', 'cursive';
+}
+.welcome-img {
+    background-image: url(shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.welcome .welcome-img img { 
+    width: 224px;
+    border-radius: 5px;
+}
+.button{
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/* Mission Section */
+.mission{
+    margin-top: 20px;
+}
+.mission span{
+    color: blue;
+}
+.mission h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.mission-elem{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 75px;
+}
+.mission .card{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.mission .card img{
+    width: 100px;
+}
+#card-one{
+    background-color:rgba(79, 157, 166, 0.1);
+}
+#card-two{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#card-three{
+    background-color:  #FFF4D6;
+}
