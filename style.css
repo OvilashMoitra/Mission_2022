@@ -1,23 +1,31 @@
 *{
     font-family: 'Roboto Condensed', sans-serif;
 }
+h1{
+    font-size: 30px;
+}
 /* Welcome Section */
 .welcome {
     display: flex;
     margin-left: 200px;
     margin-top: 20px;
+
 }
 .welcome .welcome-text{
     margin-top: -18px;
    
+}
+.welcome-text div{
+    border-left: 5px solid rgb(47, 253, 174);
+    border-radius: 3px 0 0 3px;
 }
 .welcome .welcome-text h1{
     font-size: 50px;
     font-family: 'Lobster', 'cursive'; 
 }
 .welcome span{
-    color: rgb(118, 216, 255);
-    font-family: 'Lobster', 'cursive';
+    color: blue;
+    font-family: 'Yeseva One';
 }
 .welcome-img {
     background-image: url(shapes/shape-9.png);
@@ -34,7 +42,7 @@
     color: white;
     background: black;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 0 10px;
     text-decoration: none;
 }
 /* Mission Section */
@@ -43,11 +51,13 @@
 }
 .mission span{
     color: blue;
+    font-family: 'Merriweather';
 }
 .mission h1{
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
+    font-family: 'Lobster', cursive;
 }
 .mission-elem{
     display: flex;
@@ -56,9 +66,10 @@
 }
 .mission .card{
     width: 30%;
-    border-radius: 10px;
+    border-radius: 20px 20px 20px 0;
     margin-left: 20px;
     padding-left: 15px;
+    box-shadow: 10px 10px 50px gray;
 }
 .mission .card img{
     width: 100px;
@@ -71,4 +82,81 @@
 }
 #card-three{
     background-color:  #FFF4D6;
+}
+/* develop section */
+.develop {
+    display: flex;
+    margin: 80px 0 0 180px;
+}
+.image{
+    width: 30%;
+    border-radius: 0 15px 0 15px;
+}
+.text{
+    width: 65%;
+    margin:5px 0 0 15px;
+}
+/* community section */
+.community{
+    display: flex;
+    margin: 80px 0 0 180px;
+}
+/* Project section */
+.projects{
+    margin: 40px 0;
+    background-color: rgb(80, 215, 233);
+    border-radius: 0 15px ;
+    width: 40%;
+    margin-left: 445px;
+}
+.message{
+    text-align: center;
+    padding: 10px 0;
+}
+.input{
+    width: 200px;
+    height: 40px;
+    margin: 0 0 10px 10px;
+}
+/* Contact Details */
+.details {
+    padding-top: 18px;
+    margin: auto;
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+}
+.details h1{
+   text-align: center;
+   background-color: black;
+   color: #fff;
+   border-radius: 0px 10px; 
+   margin-bottom: 0;
+}
+.contact{
+    text-align: center;
+    margin-left: -30px;  
+}
+.icon {
+    margin-left: 55px;
+    color: #000;
+    font-size: 30px;
+}
+
+/* footer section */
+footer{
+    background-color: #000;
+    text-align: center; 
+    margin-top: 10px;
+    color: white;
+    padding: 5px 0;
+}
+footer h1{
+    font-size: 50px;
+    font-family: 'Lobster', 'cursive'; 
+    color: white;
+}
+footer h1 span{
+    color: red;
+    font-family: 'Yeseva One';
 }
